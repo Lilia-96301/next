@@ -111,5 +111,66 @@ hr {
 
 
 
+.story {
+    height: 400px;
+}
+
+.row1 {
+    display: flex;
+    margin-top: 45px;
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+}
+
+.left {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.text {
+    margin-left: 100px;
+}
+
+.text>h1 {
+    color: #585561;
+}
+
+.text p {
+    color: #959399;
+}
+
+section {
+    height: 545px;
+    background-image: url(../Images/PUT-YOUR-IMAGE-HERE.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-bottom: 65px;
+}
 
 
+
+
+
+section {
+    height: 545px;
+    background-image: url(../Images/PUT-YOUR-IMAGE-HERE.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-bottom: 65px;
+}
+
+.watch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 545px;
+}
+
+.watch p {
+    text-transform: uppercase;
+    font-family: 'Roboto-black', sans-serif;
+    font-size: 16px;
+}
