@@ -1,0 +1,115 @@
+header {
+    height: 670px;
+    background-image: url(../Images/PUT-YOUR-BACKGROUND-HERE.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 35px;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.row {
+    display: flex; 
+    margin-left: 15px;
+    
+}
+
+.tajam {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: unset;
+    width: 250px;
+    height: 70px;
+   
+}
+
+.logo {
+    font-family: 'Rotboto-Thin', sans-serif;
+    font-size: 30px;
+    color: #00e0d0;
+    margin-left: 15px;
+}
+
+nav.menu {
+    float: right;
+    text-align: right;
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 13px;
+    width: 700px;
+    padding-top: 10px;
+}
+
+.menu a:hover {
+    color: #00e0d0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.learn {
+    margin-top: 120px;
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+}
+
+hr {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.learnmore {
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    background: transparent;
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-top: 40px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.learnmore:hover {
+    color: #00e0d0;
+    background-color: #c9c7ca;
+}
+
+.circle p {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    margin: 3px;
+}
+
+.circle p:hover {
+    background-color: #00e0d0;
+}
+.circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+
+
+
